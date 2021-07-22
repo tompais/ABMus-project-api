@@ -104,7 +104,7 @@ tasks.withType<KotlinCompile> {
 		jvmTarget = "11"
 		allWarningsAsErrors = true
 	}
-	dependsOn(ktlint)
+	dependsOn(ktlintCheck)
 }
 
 tasks.withType<Test> {

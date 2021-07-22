@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class ABMusApiApplication
 
 fun main(args: Array<String>) {
-	runApplication<ABMusApiApplication>(*args)
+    runApplication<ABMusApiApplication>(*args)
 }

@@ -2,12 +2,10 @@ package com.cuarencoders.abmus_api.integration
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo
-import io.restassured.http.ContentType
-import io.restassured.http.ContentType.*
+import io.restassured.http.ContentType.TEXT
 import io.restassured.module.mockmvc.RestAssuredMockMvc.`when`
 import org.junit.jupiter.api.Test
-import org.springframework.http.HttpStatus
-import org.springframework.http.HttpStatus.*
+import org.springframework.http.HttpStatus.OK
 
 class PingIntegrationTest : BaseIntegrationTest() {
     @Test
