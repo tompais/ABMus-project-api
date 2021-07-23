@@ -13,7 +13,7 @@
             <AppenderRef ref="Console" />
         </Root>
 
-        <!-- LOG "com.baeldung*" at TRACE level -->
+        <!-- LOG "com.cuarencoders*" at TRACE level -->
         <Logger name="com.cuarencoders" level="trace"/>
     </Loggers>
 
